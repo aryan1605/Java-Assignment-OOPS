@@ -26,3 +26,21 @@ public class Student {
         return "NAME: "+name+"\nAGE: "+age+"\nADDRESS: "+address;
     }
 }
+class TestStudent1
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        Student obj[]=new Student[10];
+        for (int i=0;i<10;i++)
+        {
+            System.out.println("<Adding values to object>");
+            obj[i]=new Student();
+            obj[i].setInfo(sc.next(),sc.nextInt(), sc.next());
+        }
+        for(Student s:obj)
+        {
+            System.out.println(s);
+        }
+    }
+}
