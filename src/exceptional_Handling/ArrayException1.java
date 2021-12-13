@@ -45,7 +45,7 @@ public class ArrayException1 {
         }
     }
 }
-class ArrayMain
+class AMain
 {
     public static void main(String[] args)
     {
