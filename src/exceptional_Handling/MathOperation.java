@@ -22,9 +22,6 @@ public class MathOperation {
             System.out.println("Average = " + avg);
         }
     }
-}
-class AddAvgMain
-{
     public static void main(String[] args)
     {
         MathOperation obj = new MathOperation();
@@ -42,3 +39,4 @@ class AddAvgMain
         obj.avg();
     }
 }
+
